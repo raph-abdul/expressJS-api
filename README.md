@@ -11,4 +11,4 @@ https://www.npmjs.com/package/swagger-ui-express
 ```
 
 
-![alt text](https://github.com/raph-abdul/expressJS-api/blob/main/public/images/swagger-api.png?raw=true)
+![alt text](https://github.com/raph-abdul/expressJS-api/blob/main/public/images/swagger.png?raw=true)
