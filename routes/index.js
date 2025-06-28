@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
+const swaggerAutogen = require('swagger-autogen');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./../swagger-output.json');
+
+
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/api', swaggerUi.serve);
 
 module.exports = router;
